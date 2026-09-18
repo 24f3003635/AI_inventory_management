@@ -3,7 +3,7 @@ from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 
 from app.admin import create_default_admin
-from app.api import api_bp
+from app.abhu import api_bp
 from app.config import LocalDevelopmentConfig
 from app.database import db
 
